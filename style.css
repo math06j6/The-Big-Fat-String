@@ -10,10 +10,9 @@ html {
 }
 
 body {
-  /* margin: 0;
-  padding: 0; */
   overflow-wrap: break-word;
   hyphens: auto;
+  padding: 1rem;
 }
 
 header,
@@ -24,4 +23,72 @@ article {
 
 label {
   font-family: "Fira Sans", sans-serif;
+}
+
+div {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#list,
+input {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 800px;
+  margin: 0.5rem 0;
+
+  border-radius: 5px;
+  border: 1px solid currentColor;
+  background: transparent;
+}
+
+select,
+label,
+option {
+  font-weight: 400;
+  color: currentColor;
+  font-size: 1rem;
+  white-space: normal;
+}
+
+select {
+  border: 1px solid currentColor;
+  background: transparent;
+
+  text-align: center;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+input,
+option {
+  padding: 0.5rem 1rem;
+}
+
+button {
+  border: 1px solid currentColor;
+  background: transparent;
+  margin: 0 0.5rem;
+  padding: 0.25rem 0.5rem;
+  text-align: center;
+  cursor: pointer;
+  margin: 0;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid currentColor;
+  background: transparent;
+  text-align: center;
+  max-width: 200px;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  background-color: #61ffa0;
 }
